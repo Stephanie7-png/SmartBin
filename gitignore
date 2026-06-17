@@ -1,0 +1,54 @@
+# ===== SYSTEME LINUX =====
+.bash_history
+.bash_logout
+.bashrc
+.profile
+.gitconfig
+.ssh/
+.cache/
+.local/
+.config/
+.nano/
+
+# ===== PYTHON =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+.venv
+*.egg-info/
+dist/
+build/
+*.log
+
+# ===== ARDUINO / ESP32 =====
+*.elf
+*.hex
+*.bin
+*.map
+build/
+.arduino15/
+
+# ===== EDITEURS =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ===== NODE (si dashboard) =====
+node_modules/
+npm-debug.log
+package-lock.json
+
+# ===== FICHIERS SENSIBLES =====
+*.env
+config.secret.*
+credentials.json
+firebase_key.json
